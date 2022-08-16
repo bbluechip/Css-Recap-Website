@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-image: linear-gradient(to right, rgb(169, 152, 152),rgba(204,7,191,0.769));
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img {
+    width: 50px;
+    height: 64.45px;
+    border: 1px solid tomato;
+    outline: 3px solid red;
+    outline-offset: 3px;
+}
+.log-reg {
+    margin: 1.5rem 2rem;
+    float: right;
+}
+.log-reg ul li{
+    display: inline-block;
+    margin: 2px;
+}
+.log-reg a,li {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.log-reg a:hover {
+    color: black;
+}
+
+.
