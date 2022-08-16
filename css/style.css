@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
 .nav {
     background-image: linear-gradient(to right, rgb(169, 152, 152),rgba(204,7,191,0.769));
     padding: 0.5rem;
@@ -35,4 +40,45 @@
     color: black;
 }
 
-.
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #ffaa53;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    
+}
+.navbar ul li {
+    display: inline-block;
+}
+.navbar a {
+    text-decoration: none;
+    margin-right: 2rem;
+    color: black;
+    font-family: "DynaPuff", cursive;
+}
+.navbar a:hover {
+    color: white;
+}
+.par {
+    padding: 2rem;
+    text-align: justify;
+}
+.slack {
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    background-color: red;
+    font-size: 2rem;
+    color: white;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.2rem;
+  }
+  .slack i:hover {
+    color: black;
+    cursor: pointer;
+  }
